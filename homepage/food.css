@@ -1,0 +1,20 @@
+.body-2{
+    background-image: linear-gradient(#d7e2fa,#b8d6f2,#ddc3e0, #edcce5, #f5d7e2) ;
+    background-attachment: fixed;
+}
+
+.page-header-food{
+    background-image: url("https://i.pinimg.com/736x/e6/7d/af/e67daf68a6e8f6d4a9283cb7d64b098c.jpg");
+    margin-top: 10px;
+}
+
+p4{
+    color: black;
+    font-weight: bold;
+}
+
+.carousel-inner{
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+    padding-bottom: 50px;
+}

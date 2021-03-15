@@ -1,0 +1,177 @@
+body,
+html {
+  height: 100%;
+  font-size: 20px; /* Change the font size*/
+  font-family: "Roboto", sans-serif; /* Change the font */
+  line-height: 1.5em; /* Change the line height size*/
+  margin: 0em;
+  color: white; /* Change the font color*/
+
+}
+
+.body-1{
+background-color: #189AB4ff;
+}
+
+.title{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px #aaa;
+  color:white;
+}
+
+    h1 {
+  letter-spacing: 5px;
+  font-size: 30px;
+  font-family: "Roboto Mono", sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/*TODO: Change the font-family property to your linked font*/
+h2 {
+  letter-spacing: 3px;
+  font-size: 25px;
+  font-family: "Roboto Mono", sans-serif;
+  color: #43d6b9ff;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+/*Change the color of a link when a person hovers over it*/
+p a {
+  color: #189AB4ff;
+  text-decoration: none;
+}
+
+
+
+  .nav-bar {
+  /* Styling for the <ul class="nav-bar"> element */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ADDFFFff;
+  border-bottom: 5px solid #000;
+  }
+
+
+li.nav {
+  /* Styling for the <li class="nav"> element */
+  float: right;
+  font-size: 15px;
+}
+
+/* TODO (optional): Change the font color, decoration, and/or case */
+
+li.nav a {
+  /* Styling for the <a> elements in <li class="nav"> */
+  display: block;
+  color: #0D38D3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px 15px;
+  margin: 15px 10px;
+
+}
+
+
+li.nav a:hover {
+ background-color: yellow;
+ color: #aec6cf9ff;
+}
+
+/************************************************/
+/*********** CSS FOR FLEXBOX HEADING ************/
+/************************************************/
+
+.flex-container {
+  display: flex; /* Set the flexbox display */
+  flex-direction: row; /* Configure the flex items to row */
+  flex-wrap: nowrap; /* Don’t wrap the flex items */
+  justify-content: center; /* Justify the flex items to the center */
+  align-items: center; /* Align the flex items to the center */
+
+  /* Design properties */
+  background-color: #189AB4ff;
+  padding: 5px;
+
+
+  /* Positioning properties */
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 30%;
+}
+
+  /*Heading for first box*/
+.heading-home{
+  padding: 2%;
+  color: #aec6cfff;
+  font-size: 50px;
+  letter-spacing: 10px;
+  line-height: 60px;
+  text-align: center;
+  text-shadow: 5px 5px black;
+}
+
+
+.intro-text {
+  background-color: #05445E; /* background color */
+  padding: 4%;
+  margin: 3%;
+  color: white; /*  color of your font */
+  font-size: 20px; /*  font size*/
+  letter-spacing: 2px; /* space between letters */
+  line-height: 1.4em; /*space between lines */
+  text-align: center;
+  border: solid;
+  border-color: black;
+
+}
+
+
+/*************** PARALLAX SCROLL ****************/
+
+/*-----------TEXT SECTIONS-----------*/
+
+
+.text-section {
+  background-color: #05445E;
+  padding: 20px 45px;
+  margin: 35px;
+  text-align: center;
+  border: solid;
+
+}
+
+/*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
+
+
+.main-message,
+.image-one {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #aec6cfff;
+  background-size: cover;
+  min-height: 100%; /* This adjusts the height of the image */
+
+
+}
+
+/* First image on homepage. */
+.main-message {
+  background-image: url("https://s3-media1.fl.yelpcdn.com/bphoto/nD0Exj_-sC5QpN8CFJVk3w/o.jpg");
+}
+
+/* Second image on home page */
+.image-one {
+  background-image: url("https://www.aquaticgroup.com/wp-content/uploads/2016/12/Asphalt-Green_Bulkhead-featured-1.jpg");
+}
